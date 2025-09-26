@@ -1,0 +1,21 @@
+{
+  "modules": [
+    { "type": "os" },
+    { "type": "kernel" },
+    { "type": "uptime" },
+    { "type": "shell" },
+    { "type": "cpu" },
+    { "type": "gpu" },
+    { "type": "memory" },
+    { "type": "resolution" },
+    {
+      "type": "image",
+      "config": {
+        "type": "iterm2",
+        "path": "/Users/josh/Downloads/2b96af779a7c26ca033b096f491c6466.jpg ", // Change this to your image
+        "width": 30,
+        "height": 30
+      }
+    }
+  ]
+}
