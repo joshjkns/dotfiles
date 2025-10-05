@@ -37,6 +37,10 @@ vim.pack.add({
 	-- { src = "https://github.com/OXY2DEV/markview.nvim" },
 	{ src = "https://github.com/nvim-lua/plenary.nvim" }, 
 	{ src = "https://github.com/ej-shafran/compile-mode.nvim" },
+<<<<<<< HEAD
+=======
+	{ src = "https://github.com/joshjkns/tuck.nvim" },
+>>>>>>> bea594b (Adding Tuck)
 })
 
 map('n', '<leader>lf', vim.lsp.buf.format)
@@ -44,6 +48,8 @@ map('n', '<leader>lf', vim.lsp.buf.format)
 vim.cmd("set completeopt+=noselect")
 
 local cmp = require("cmp")
+
+require("tuck")
 
 cmp.setup({
   mapping = cmp.mapping.preset.insert({
